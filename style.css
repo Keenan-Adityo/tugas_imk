@@ -164,6 +164,10 @@
     color: #012970;
   }
   
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #012970 !important;
+}
+
   .hero h2 {
     color: #444444;
     margin: 15px 0 0 0;
