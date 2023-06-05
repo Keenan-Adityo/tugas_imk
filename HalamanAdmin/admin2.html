@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Table -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Navbar -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> 
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Halaman Admin</title>
+</head>
+<body>
+    <header id="header" class="header fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    
+          <nav id="navbar" class="navbar">
+            <div class="logo d-flex align-items-center">
+                <img src="unsoed.jpg" alt="">
+                <span>Sistem Tagihan</span>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="nav-link scrollto" href="#">Login</a></li>
+              <li><a class="nav-link scrollto" href="#">Petunjuk</a></li>
+              <li><a class="nav-link scrollto" href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        </div>
+      </header>
+        
+      <div class="container">
+        <h2>Data Tagihan</h2>            
+        <table class="table table-bordered table-striped table-hover">
+          <thead>
+            <tr class="bg-info">
+              <th>NIM</th>
+              <th>Nama</th>
+              <th>Angkatan</th>
+              <th>Bank</th>
+              <th>Bukti</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>H1D021099</td>
+              <td>Doe</td>
+              <td>2021</td>
+              <td>BCA</td>
+              <td><img src="bukti1.jpg" width="50" height="50"></td>
+              <td><button type="button" class="btn btn-info">Delete</button>
+                <button type="button" class="btn btn-info">Edit</button></td>
+            </tr>
+            <tr>
+              <td>H1D021095</td>
+              <td>Moe</td>
+              <td>2021</td>
+              <td>BCA</td>
+              <td><img src="bukti2.jpeg" width="50" height="50"></td>
+              <td><button type="button" class="btn btn-info">Delete</button>
+                <button type="button" class="btn btn-info">Edit</button></td>
+            </tr>
+            <tr>
+              <td>H1D022050</td>
+              <td>Dooley</td>
+              <td>2022</td>
+              <td>BCA</td>
+              <td><img src="bukti3.jpeg" width="50" height="50"></td>
+              <td><button type="button" class="btn btn-info">Delete</button>
+                <button type="button" class="btn btn-info">Edit</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+</body>
+</html>
